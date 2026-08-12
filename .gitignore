@@ -8,7 +8,8 @@ __pycache__/
 # macOS metadata
 .DS_Store
 
-# Embedded clone of an external repo (re-clone with `git clone https://github.com/adobe-research/DeepAFx-ST.git`)
+# Embedded clone of an external repo (re-clone with:
+#   git clone https://github.com/adobe-research/DeepAFx-ST.git)
 DeepAFx-ST/
 
 # Model checkpoints (large, regenerable from training)
@@ -19,11 +20,10 @@ models/
 # Tensorboard logs
 runs/
 
-# Generated audio outputs (regenerable from scripts + raw data)
-outputs/*.wav
-outputs/*.flac
-outputs/*.aif
-outputs/*.aiff
+# Raw audio dataset and generated outputs (large / regenerable)
 data/raw/
-DeepAFx-ST/
 outputs/
+
+# Hosting / deployment and scratch folders (not part of the submission)
+spaces_deploy/
+_to_delete/

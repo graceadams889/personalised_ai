@@ -93,6 +93,6 @@ Project-wide defaults live in `configs/default.yaml`.
 
 ## Note on the use of generative AI
 
-Parts of the implementation and its documentation were scaffolded with the assistance
+Parts of the implementation were scaffolded with the assistance
 of an AI coding tool. All design decisions, parameter choices, dataset creation and
 listening-driven refinement are the researcher's own work.
